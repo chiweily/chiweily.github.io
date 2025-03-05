@@ -1,8 +1,10 @@
+
 function ArrowIcon() {
   return (
     <svg
       width="12"
       height="12"
+      //  设定 SVG 的视口框
       viewBox="0 0 12 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -15,6 +17,8 @@ function ArrowIcon() {
   )
 }
 
+
+//  07/23 TODO: arrow + text --> icon, transparent
 export default function Footer() {
   return (
     <footer className="mb-16">
@@ -35,9 +39,8 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/vercel/next.js"
+            href="https://github.com/chiweily"
           >
-            <ArrowIcon />
             <p className="ml-2 h-7">github</p>
           </a>
         </li>
@@ -46,10 +49,9 @@ export default function Footer() {
             className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+            href="https://www.instagram.com/chiweily/"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">view source</p>
+            <p className="ml-2 h-7">Ins</p>
           </a>
         </li>
       </ul>

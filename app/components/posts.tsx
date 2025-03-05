@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { formatDate, getBlogPosts } from 'app/blog/utils'
 
+//  BlogPosts 是首页的 blog 列表组建
 export function BlogPosts() {
   let allBlogs = getBlogPosts()
 
